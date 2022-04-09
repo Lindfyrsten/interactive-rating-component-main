@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    margin: 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.container,
+.thankyou {
+    border-radius: 20px;
+    width: 400px;
+    background: linear-gradient(36deg, rgba(18, 20, 23, 1) 0%, rgba(37, 45, 55, 1) 35%, rgba(18, 20, 23, 1) 100%);
+    display: flex;
+    background-color: hsl(213, 19%, 18%);
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+}
+
+.headline {
+    margin-bottom: 10px;
+}
+
+.star-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rating {
+    margin-top: 20px;
+}
+
+.rating-button {
+    background: hsl(213, 19%, 18%);
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: hsl(217, 12%, 63%);
+    transition: all 0.15s;
+
+}
+
+.rating-button:hover {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit {
+    margin-top: 20px;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.15s;
+}
+
+.selected {
+    background: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.hidden {
+    display: none;
+}
